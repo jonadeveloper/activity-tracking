@@ -27,7 +27,7 @@ nav{
     align-items: center;
 }
 
-a{
+.item-menu{
     margin: 20px;
     text-decoration: none;
     color: white;
@@ -37,25 +37,32 @@ a{
     font-size: 1.15rem;
 }
 
-a:hover{
+.item-menu:hover{
     color: rgb(0, 140, 255);
 }
 
 /* section home */
 
-section{
+#home{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    /* background-color: aliceblue; */
     align-items:flex-start;
     width: 100%;
-    height: 75vh;
+    height: 80vh;
 }
 
-section h1{
+.description{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#home h1{
     margin: 0 2rem;
     text-align: start;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.75rem;
+    font-family: sans-serif;
+    font-size: 2.80rem;
     font-weight: 100;
     color: white;
 }
@@ -64,12 +71,12 @@ span{
     color: rgb(0, 140, 255);
 }
 
-section p{
+#home p{
     margin: 2rem;
-    font-size: 1.5rem;
-    font-family:'Times New Roman', Times, serif;
-    letter-spacing: 1.5px;
-    font-weight: 100;
+    font-size: 1.75rem;
+    font-family:"Roboto", serif;
+    letter-spacing: 1px;
+    font-weight: 200;
     color: white;
 }
 
@@ -89,8 +96,29 @@ button{
     color: white;
 }
 
-section img{
+#home img{
     width: 600px;
     /* height: 450px; */
     background-size: cover;
+    /* filter: drop-shadow(5px 4px 2px rgb(0, 140, 255)); */
+    filter: drop-shadow(5px 4px 2px rgb(4, 202, 237));
+}
+
+.imageHero{
+    margin: 0 2rem;
+    border-radius: 4rem 0.5rem;
+    background: #43424231;
+}
+
+#activitiesFavourites{
+    width: 100%;
+    height: 80vh;
+}
+
+#activitiesFavourites h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2.25rem;
+    font-weight: 100;
+    color: white;
 }

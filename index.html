@@ -4,31 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>activity-tracking</title>
+    <link rel="shortcut icon" href="./assets/svg/favi.svg" type="image/x-icon">
+    <title>activity-tracking - Crea tus actividades y haz un seguimiento</title>
 </head>
 
 <body>
     <header>
         <img class="logo" src="./assets/svg/Activity_tracking-logo-header.svg" alt="icono">
         <nav>
-            <a href="">Inicio</a>
-            <a href="">Mis actividades favoritas</a>
-            <a href="">Crear nueva actividad</a>
-            <a href="">Administrar actividades</a>
+            <a class="item-menu" href="#home">Inicio</a>
+            <a class="item-menu" href="#activiesFavourites">Mis actividades favoritas</a>
+            <a class="item-menu" href="">Crear nueva actividad</a>
+            <a class="item-menu" href="">Administrar actividades</a>
         </nav>
     </header>
     <section id="home">
-        <div>
+        <div class="description">
             <h1>Bienvenidos a <span>activity-tracking</span></h1>
-            <p>La aplicación web que no solo va a ayudarte a llevar un registro de tus actividades.
-                Sino que, tambien vas a poder hacerles un seguimiento y agregar las nuevas actividades
-                que quieras agregar.
+            <p>Tu mejor aliado a la hora de gestionar tus tareas y actividades diarias.
+
             </p>
             <button>Comienza a aprender</button>
         </div>
+        <div class="imageHero">
+            <img src="./assets/img/hero3.png" alt="imagen heroe">
+        </div>
+    </section>
+    <section id="activitiesFavourites">
+        <h2>Que te ofrece <span>activity-tracking</span></h2>
         <div>
-            <img src="./assets/img/heroimage.png" alt="imagen heroe">
+            <article></article>
+            <article></article>
+            <article></article>
         </div>
     </section>
 </body>
